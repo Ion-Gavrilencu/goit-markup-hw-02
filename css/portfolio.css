@@ -1,0 +1,197 @@
+:root {
+    --link-title-color: #2E2F42;
+    --text-link-color: #434455;
+    --link-color-hover: #ff6c00;
+    --headind-fond-family: "Raleway", sans-serif;
+    --text-fond-family: "Roboto", sans-serif;
+}
+body {
+    font-family: var(--text-fond-family);
+    color: var(--text-link-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.global-header {
+    background-color: #ffffff;
+}
+
+.global-header .logo::before {
+    content: "WEB";
+    color: #4D5AE5;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3em;
+    font-family: var(--headind-fond-family);
+}
+
+.global-header .logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3em;
+    font-family: var(--headind-fond-family);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--link-title-color)
+}
+.global-header .main-nav a,
+.global-header .main-nav a:visited .global-header .main-nav a:active {
+    color: var(--link-title-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: var(--text-link-color);
+}
+.global-header .main-nav a:hover,
+.global-header .social-div a:hover {
+    color: var(--link-color-hover);
+
+}
+
+.global-header .social-div a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: var(--text-link-color);}
+.first-section .all-button {
+    background-color: #404BBF;
+    border-radius: 4px;
+    border-width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 12px, 24px, 12px, 24px;
+    cursor: pointer;
+}
+.first-section .web-button {
+    background-color:#F4F4FD;
+    border-color: #E7E9FC;
+    border-radius: 4px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    padding: 12px, 24px, 12px, 24px;
+    cursor: pointer;
+    text-align: center;
+}
+.first-section .app-button {
+    background-color: #F4F4FD;
+    border-color: #E7E9FC;
+    border-radius: 4px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    padding: 12px, 24px, 12px, 24px;
+    cursor: pointer;
+    text-align: center;
+}
+.first-section .design-button {
+    background-color: #F4F4FD;
+    border-color: #E7E9FC;
+    border-radius: 4px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    padding: 12px, 24px, 12px, 24px;
+    cursor: pointer;
+    text-align: center;
+}
+.first-section .marketing-button {
+    background-color: #F4F4FD;
+    border-color: #E7E9FC;
+    border-radius: 4px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    padding: 12px, 24px, 12px, 24px;
+    cursor: pointer;
+    text-align: center;
+}
+.second-section h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+    color: var(--link-title-color);
+}
+
+.second-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.third-section h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+    color: var(--link-title-color);
+}
+.third-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.fourth-section h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+    color: var(--link-title-color);
+}
+.fourth-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.global-footer {
+    background-color: #434455;
+}
+
+.global-footer .logo::before {
+    content: "WEB";
+    color: #4D5AE5;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3em;
+    font-family: var(--headind-fond-family);
+}
+
+.global-footer .logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3em;
+    font-family: var(--headind-fond-family);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F4F4FD;
+}
+
+.global-footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #F4F4FD;
+}
